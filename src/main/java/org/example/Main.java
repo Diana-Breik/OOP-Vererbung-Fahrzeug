@@ -6,5 +6,9 @@ public class Main {
         System.out.println(fahrzeug1);
         Auto auto1 = new Auto("BB","BB",2020,4);
         System.out.println(auto1);
+        Motorrad motorrad1 = new Motorrad("CC","CC",2020,"Sportbike");
+        System.out.println(motorrad1);
+        /*motorrad1.modell ="xxx";
+        System.out.println(motorrad1);*/
     }
 }

@@ -6,7 +6,7 @@ public class Auto extends Fahrzeug{
     protected int anzahlTüren;
 
     public Auto(){
-
+    super();// es ist immer wichtig
     }
     public Auto(int anzahlTüren) {
         super();
